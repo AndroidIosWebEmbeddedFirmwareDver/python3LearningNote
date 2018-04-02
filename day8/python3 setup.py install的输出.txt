@@ -1,0 +1,220 @@
+Last login: Wed Mar 28 13:54:30 on ttys001
+wangxiaolongdeMacBook-Pro:~ wangxiaolong$ pip -?
+-bash: pip: command not found
+wangxiaolongdeMacBook-Pro:~ wangxiaolong$ brew install pip
+Updating Homebrew...
+^C^CwangxiaolongdeMacBook-Pro:~ wangxiaolong$ 
+wangxiaolongdeMacBook-Pro:~ wangxiaolong$ 
+wangxiaolongdeMacBook-Pro:~ wangxiaolong$ pwd
+/Users/wangxiaolong
+wangxiaolongdeMacBook-Pro:~ wangxiaolong$ cd ./Documents/Wo
+WondersHealth/ WorkSpace/     
+wangxiaolongdeMacBook-Pro:~ wangxiaolong$ cd ./Documents/WorkSpace/Git/
+wangxiaolongdeMacBook-Pro:Git wangxiaolong$ pwd
+/Users/wangxiaolong/Documents/WorkSpace/Git
+wangxiaolongdeMacBook-Pro:Git wangxiaolong$ git clone https://github.com/PyMySQL/PyMySQL
+Cloning into 'PyMySQL'...
+remote: Counting objects: 3775, done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 3775 (delta 8), reused 13 (delta 5), pack-reused 3751
+Receiving objects: 100% (3775/3775), 935.79 KiB | 4.00 KiB/s, done.
+Resolving deltas: 100% (2497/2497), done.
+wangxiaolongdeMacBook-Pro:Git wangxiaolong$ ls -l
+total 0
+drwxr-xr-x   8 wangxiaolong  staff   256  8  9  2017 Mac-App-translate
+drwxr-xr-x  11 wangxiaolong  staff   352  7 13  2017 NodeAppLearn
+drwxr-xr-x  19 wangxiaolong  staff   608  3 28 15:24 PyMySQL
+drwxr-xr-x  43 wangxiaolong  staff  1376  8  4  2017 SpringBoot-Learning
+drwxr-xr-x   8 wangxiaolong  staff   256  7 20  2017 demoSpringBoot
+drwxr-xr-x  10 wangxiaolong  staff   320 10 20 15:19 p3c
+drwxr-xr-x  18 wangxiaolong  staff   576  7 12  2017 showdoc
+drwxr-xr-x   7 wangxiaolong  staff   224  7 19  2017 untitledJavaEETest
+drwxr-xr-x  21 wangxiaolong  staff   672  1 19 15:02 wondersgroup-healthSC-android
+drwxr-xr-x  10 wangxiaolong  staff   320  3 13 14:41 wondersgroup-healthSC-app-admin-h5
+drwxr-xr-x  13 wangxiaolong  staff   416  7 11  2017 wondersgroup-healthSC-app-h5
+drwxr-xr-x@ 11 wangxiaolong  staff   352  7 11  2017 wondersgroup-healthSC-jobcenter
+drwxr-xr-x  23 wangxiaolong  staff   736 12 12 16:01 wondersgroup-healthSC-server
+wangxiaolongdeMacBook-Pro:Git wangxiaolong$ cd PyMySQL/
+wangxiaolongdeMacBook-Pro:PyMySQL wangxiaolong$ ls
+CHANGELOG	README.rst	pymysql		setup.py
+LICENSE		docs		runtests.py	tox.ini
+MANIFEST.in	example.py	setup.cfg
+wangxiaolongdeMacBook-Pro:PyMySQL wangxiaolong$ ls -l
+total 80
+-rw-r--r--   1 wangxiaolong  staff  7588  3 28 15:24 CHANGELOG
+-rw-r--r--   1 wangxiaolong  staff  1070  3 28 15:24 LICENSE
+-rw-r--r--   1 wangxiaolong  staff    84  3 28 15:24 MANIFEST.in
+-rw-r--r--   1 wangxiaolong  staff  3826  3 28 15:24 README.rst
+drwxr-xr-x   5 wangxiaolong  staff   160  3 28 15:24 docs
+-rw-r--r--   1 wangxiaolong  staff   320  3 28 15:24 example.py
+drwxr-xr-x  15 wangxiaolong  staff   480  3 28 15:24 pymysql
+-rwxr-xr-x   1 wangxiaolong  staff   704  3 28 15:24 runtests.py
+-rw-r--r--   1 wangxiaolong  staff   106  3 28 15:24 setup.cfg
+-rwxr-xr-x   1 wangxiaolong  staff  1334  3 28 15:24 setup.py
+-rw-r--r--   1 wangxiaolong  staff   184  3 28 15:24 tox.ini
+wangxiaolongdeMacBook-Pro:PyMySQL wangxiaolong$ python3 setup.py install
+running install
+running bdist_egg
+running egg_info
+creating PyMySQL.egg-info
+writing PyMySQL.egg-info/PKG-INFO
+writing dependency_links to PyMySQL.egg-info/dependency_links.txt
+writing top-level names to PyMySQL.egg-info/top_level.txt
+writing manifest file 'PyMySQL.egg-info/SOURCES.txt'
+reading manifest file 'PyMySQL.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'PyMySQL.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.6-intel/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/pymysql
+copying pymysql/util.py -> build/lib/pymysql
+copying pymysql/cursors.py -> build/lib/pymysql
+copying pymysql/connections.py -> build/lib/pymysql
+copying pymysql/__init__.py -> build/lib/pymysql
+copying pymysql/times.py -> build/lib/pymysql
+copying pymysql/charset.py -> build/lib/pymysql
+copying pymysql/converters.py -> build/lib/pymysql
+copying pymysql/_compat.py -> build/lib/pymysql
+copying pymysql/_socketio.py -> build/lib/pymysql
+copying pymysql/optionfile.py -> build/lib/pymysql
+copying pymysql/err.py -> build/lib/pymysql
+creating build/lib/pymysql/constants
+copying pymysql/constants/FLAG.py -> build/lib/pymysql/constants
+copying pymysql/constants/COMMAND.py -> build/lib/pymysql/constants
+copying pymysql/constants/CLIENT.py -> build/lib/pymysql/constants
+copying pymysql/constants/__init__.py -> build/lib/pymysql/constants
+copying pymysql/constants/ER.py -> build/lib/pymysql/constants
+copying pymysql/constants/CR.py -> build/lib/pymysql/constants
+copying pymysql/constants/SERVER_STATUS.py -> build/lib/pymysql/constants
+copying pymysql/constants/FIELD_TYPE.py -> build/lib/pymysql/constants
+creating build/lib/pymysql/tests
+copying pymysql/tests/test_optionfile.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_load_local.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_basic.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_converters.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_connection.py -> build/lib/pymysql/tests
+copying pymysql/tests/__init__.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_cursor.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_issues.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_nextset.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_err.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_DictCursor.py -> build/lib/pymysql/tests
+copying pymysql/tests/test_SSCursor.py -> build/lib/pymysql/tests
+copying pymysql/tests/base.py -> build/lib/pymysql/tests
+creating build/lib/pymysql/tests/thirdparty
+copying pymysql/tests/thirdparty/__init__.py -> build/lib/pymysql/tests/thirdparty
+creating build/lib/pymysql/tests/thirdparty/test_MySQLdb
+copying pymysql/tests/thirdparty/test_MySQLdb/dbapi20.py -> build/lib/pymysql/tests/thirdparty/test_MySQLdb
+copying pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_nonstandard.py -> build/lib/pymysql/tests/thirdparty/test_MySQLdb
+copying pymysql/tests/thirdparty/test_MySQLdb/__init__.py -> build/lib/pymysql/tests/thirdparty/test_MySQLdb
+copying pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_dbapi20.py -> build/lib/pymysql/tests/thirdparty/test_MySQLdb
+copying pymysql/tests/thirdparty/test_MySQLdb/capabilities.py -> build/lib/pymysql/tests/thirdparty/test_MySQLdb
+copying pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_capabilities.py -> build/lib/pymysql/tests/thirdparty/test_MySQLdb
+creating build/bdist.macosx-10.6-intel
+creating build/bdist.macosx-10.6-intel/egg
+creating build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/util.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+creating build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/constants/FLAG.py -> build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/constants/COMMAND.py -> build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/constants/CLIENT.py -> build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/constants/__init__.py -> build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/constants/ER.py -> build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/constants/CR.py -> build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/constants/SERVER_STATUS.py -> build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/constants/FIELD_TYPE.py -> build/bdist.macosx-10.6-intel/egg/pymysql/constants
+copying build/lib/pymysql/cursors.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/connections.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+creating build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_optionfile.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_load_local.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_basic.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_converters.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_connection.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/__init__.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_cursor.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_issues.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_nextset.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_err.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_DictCursor.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/test_SSCursor.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+copying build/lib/pymysql/tests/base.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests
+creating build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty
+copying build/lib/pymysql/tests/thirdparty/__init__.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty
+creating build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib/pymysql/tests/thirdparty/test_MySQLdb/dbapi20.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_nonstandard.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib/pymysql/tests/thirdparty/test_MySQLdb/__init__.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_dbapi20.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib/pymysql/tests/thirdparty/test_MySQLdb/capabilities.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_capabilities.py -> build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb
+copying build/lib/pymysql/__init__.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/times.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/charset.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/converters.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/_compat.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/_socketio.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/optionfile.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+copying build/lib/pymysql/err.py -> build/bdist.macosx-10.6-intel/egg/pymysql
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/util.py to util.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/constants/FLAG.py to FLAG.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/constants/COMMAND.py to COMMAND.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/constants/CLIENT.py to CLIENT.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/constants/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/constants/ER.py to ER.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/constants/CR.py to CR.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/constants/SERVER_STATUS.py to SERVER_STATUS.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/constants/FIELD_TYPE.py to FIELD_TYPE.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/cursors.py to cursors.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/connections.py to connections.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_optionfile.py to test_optionfile.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_load_local.py to test_load_local.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_basic.py to test_basic.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_converters.py to test_converters.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_connection.py to test_connection.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_cursor.py to test_cursor.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_issues.py to test_issues.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_nextset.py to test_nextset.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_err.py to test_err.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_DictCursor.py to test_DictCursor.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/test_SSCursor.py to test_SSCursor.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/base.py to base.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb/dbapi20.py to dbapi20.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_nonstandard.py to test_MySQLdb_nonstandard.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_dbapi20.py to test_MySQLdb_dbapi20.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb/capabilities.py to capabilities.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_capabilities.py to test_MySQLdb_capabilities.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/times.py to times.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/charset.py to charset.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/converters.py to converters.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/_compat.py to _compat.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/_socketio.py to _socketio.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/optionfile.py to optionfile.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.6-intel/egg/pymysql/err.py to err.cpython-36.pyc
+creating build/bdist.macosx-10.6-intel/egg/EGG-INFO
+copying PyMySQL.egg-info/PKG-INFO -> build/bdist.macosx-10.6-intel/egg/EGG-INFO
+copying PyMySQL.egg-info/SOURCES.txt -> build/bdist.macosx-10.6-intel/egg/EGG-INFO
+copying PyMySQL.egg-info/dependency_links.txt -> build/bdist.macosx-10.6-intel/egg/EGG-INFO
+copying PyMySQL.egg-info/top_level.txt -> build/bdist.macosx-10.6-intel/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+pymysql.tests.__pycache__.base.cpython-36: module references __file__
+pymysql.tests.__pycache__.test_load_local.cpython-36: module references __file__
+creating dist
+creating 'dist/PyMySQL-0.8.0-py3.6.egg' and adding 'build/bdist.macosx-10.6-intel/egg' to it
+removing 'build/bdist.macosx-10.6-intel/egg' (and everything under it)
+Processing PyMySQL-0.8.0-py3.6.egg
+creating /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/PyMySQL-0.8.0-py3.6.egg
+Extracting PyMySQL-0.8.0-py3.6.egg to /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages
+Adding PyMySQL 0.8.0 to easy-install.pth file
+
+Installed /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/PyMySQL-0.8.0-py3.6.egg
+Processing dependencies for PyMySQL==0.8.0
+Finished processing dependencies for PyMySQL==0.8.0
+wangxiaolongdeMacBook-Pro:PyMySQL wangxiaolong$ 
